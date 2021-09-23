@@ -16,5 +16,8 @@ const person={
 
 console.log(person.Status());
 
+
 person["Dues"]=0;
 console.log(person.Status());
+
+console.log(Object.values(person));
